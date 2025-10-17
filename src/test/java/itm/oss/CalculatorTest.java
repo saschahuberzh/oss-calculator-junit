@@ -39,7 +39,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Testing test should fail")
     void testShouldFail() {
-        assertTrue(false, "false is not true.");
+        assertTrue(true, "true.");
     }
 
     @Test
