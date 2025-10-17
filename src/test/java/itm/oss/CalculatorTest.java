@@ -37,6 +37,12 @@ class CalculatorTest {
     }
 
     @Test
+    @DisplayName("Testing test should fail")
+    void testShouldFail() {
+        assertTrue(false, "false is not true.");
+    }
+
+    @Test
     @DisplayName("Testing function isPrime with negative numbers")
     void testNegativeNumbers() {
         assertFalse(calc.isPrime(-1), "There are not negative primer numbers.");
